@@ -1,0 +1,259 @@
+body{
+    background-color: #0F0D0B;
+    color: white;
+}
+
+.intro{
+    color: white;
+    margin-left: 10px;
+    font-size: large;
+    box-shadow: #F5C842 10px 10px 100px;
+}
+.intro-btn{
+    margin-right: 5px;
+    background-color: #F5C842 ;
+    border-radius: 15px;
+    padding: 10px;
+    border: solid 1px #F5C842 ;
+}
+.intro-spn{
+    color: #F5C842 ;
+}
+.intro-to{
+    margin-left: 10px;
+    font-size: larger;
+    margin-top: 0px;
+    color: #F5C842;
+    margin-top: 30px;
+}
+
+.where{
+    color: white;
+}
+.where-span{
+    color: #F5C842;
+}
+
+.tracker{
+   color:#4A3E30 ; 
+   margin-bottom: 40px;
+}
+.first{
+    display: flex;;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+    gap: 1em;
+}
+
+.first1{
+    display: flex;;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+    gap: 1em;
+    border-bottom: solid 1px #231E18;
+}
+
+.one{
+    margin: 0;
+    padding: 0;
+}
+
+.descrip{
+    margin: 0;
+    padding: 0;
+}
+
+.descrip1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: start;
+}
+
+.descrip-p{
+    margin: 0;
+    padding: 0;
+    color: #4A3E30;
+}
+
+.last{
+  color: #4A3E30;  
+}
+
+.one1{
+    margin-top: 10px;
+    background-color: #4A3E30;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+        transition: transform 0.3s ease;
+}
+
+.one1:hover{
+    background-color:transparent;
+    transform: translateY(-5px);
+     padding: 6px 12px 6px 12px;
+}
+
+.nav-bars{
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    background-color:#231E18;
+    width: 20em ;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 6px;
+     align-items: center;;
+}
+
+.nv{
+    gap: 20px;
+    background-color: #1A1612;
+    color: white;
+    border-top-left-radius: 1em ;
+      border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding: 10px 30px 10px 30px;
+    border: solid #1A1612 1px;
+    margin-left: 20px;
+}
+
+.nv2{
+    gap: 20px;
+    background-color:#1A1612;
+    color: white;
+    border-top-left-radius: 1em ;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 10px 30px 10px 30px;
+    border: solid #1A1612 1px;
+    margin-left: 20px;
+}
+
+.nav:hover{
+    background-color:#F5C842;
+}
+.right-side{
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.left-sidebar{
+   border-right: solid 1px #231E18;
+   margin-left: 40px;
+}
+
+.wlc-not{
+    color: white;
+    margin-bottom: 6px;
+}
+
+.first-prg{
+    color: #4A3E30;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.personal-info{
+    background: #1f1910;
+    color: #4A3E30;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 23em;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    border: 1px solid #E8A838;
+    height: 56px;
+}
+.p-in-spn{
+    color: #F5C842;
+}
+
+.per-info-btn{
+    background-color: transparent;
+    color: #F5C842;
+    border: solid 1px #F5C842;
+    height: max-content;
+    align-self: center;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+label{
+    margin-bottom: 6px;
+    color: #b9aea0;
+}
+
+.log-inp{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 20px;
+} 
+
+.log-inp1{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 20px;
+} 
+
+.log-inp{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 3px;
+} 
+
+.log-inp2{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 20px;
+}
+
+.frg-psw{
+    margin-left: 12em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.sign-in{
+    margin-top: 15px;
+    padding: 10px 150px 10px 130px;
+    background-color: #FBB04C;
+    box-shadow: #F5C842 10px -10px 20px;
+}
+
+.sign-in:hover{
+    background-color: transparent;
+    color: #F5C842;
+    box-shadow: #E8A838 10px 10px 10px;
+}
+
+.no-account{
+    margin-top: 20px;
+    color: #4A3E30;
+}
+.no-accn{
+    color: #F5C842;
+}
+
+
+
