@@ -1,0 +1,80 @@
+body{
+    background-color: #0F0D0B;
+    color: white;
+}
+
+.intro{
+    color: white;
+    margin-left: 10px;
+    font-size: large;
+}
+.intro-btn{
+    margin-right: 5px;
+    background-color: #F5C842 ;
+    border-radius: 15px;
+    padding: 10px;
+    border: solid 1px #F5C842 ;
+}
+.intro-spn{
+    color: #F5C842 ;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: max-content 1fr ;
+    background-color:#1E1E2F;
+}
+
+.btn1{
+   background: linear-gradient(
+        to right,
+        rgba(245, 200, 66, 0.2),
+        rgba(255, 216, 98, 0.2)
+    );
+    padding: 10px 30px;
+    border: #F5C842 solid 1px;
+    color:#F5C842;
+    border-radius: 6px;
+}
+
+.btn2{
+      background: linear-gradient(
+        to right,
+        rgba(245, 200, 66, 0.2),
+        rgba(255, 216, 98, 0.2)
+    );
+    padding: 10px 30px;
+    border: #F5C842 solid 1px;
+    color:#F5C842;
+    border-radius: 6px;
+}
+
+.btn3{
+     background: linear-gradient(
+        to right,
+        rgba(245, 200, 66, 0.2),
+        rgba(255, 216, 98, 0.2)
+    );
+    padding: 10px 30px;
+    border: #F5C842 solid 1px;
+    color: #F5C842;
+    border-radius: 6px;
+}
+
+.btn4{
+
+    background: linear-gradient(
+        to right,
+        rgba(245, 200, 66, 0.2),
+        rgba(255, 216, 98, 0.2)
+    );
+    border: 1px solid #F5C842;
+    color: #F5C842;
+    cursor: pointer;
+     padding: 10px 25px;   /* key fix */
+    border-radius: 50px;
+}
+
+.nav-bar{
+    text-align: end;
+}
