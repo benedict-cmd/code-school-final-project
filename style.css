@@ -106,12 +106,12 @@ body{
     margin-left: 30px;
     height: 40px;
     border-radius: 6px;
-     align-items: center;;
+     align-items: center;
 }
 
-.nv{
+.nv1{
     gap: 20px;
-    background-color: #1A1612;
+    /* background-color: #1A1612; */
     color: white;
     border-top-left-radius: 1em ;
       border-bottom-right-radius: 1em;
@@ -121,7 +121,7 @@ body{
     margin-left: 20px;
 }
 
-.nv2{
+.nv1:hover{
     gap: 20px;
     background-color:#1A1612;
     color: white;
@@ -131,7 +131,7 @@ body{
     padding: 10px 30px 10px 30px;
     border: solid #1A1612 1px;
     margin-left: 20px;
-}
+} 
 
 .nav:hover{
     background-color:#F5C842;
@@ -178,6 +178,16 @@ body{
 }
 
 .per-info-btn{
+    background-color: transparent;
+    color: #F5C842;
+    /* border: solid 1px #F5C842; */
+    height: max-content;
+    align-self: center;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.per-info-btn:hover{
     background-color: transparent;
     color: #F5C842;
     border: solid 1px #F5C842;
@@ -238,13 +248,13 @@ label{
     margin-top: 15px;
     padding: 10px 150px 10px 130px;
     background-color: #FBB04C;
-    box-shadow: #F5C842 10px -10px 20px;
+    /* box-shadow: #F5C842 10px -10px 20px; */
 }
 
 .sign-in:hover{
     background-color: transparent;
     color: #F5C842;
-    box-shadow: #E8A838 10px 10px 10px;
+    box-shadow: #E8A838 10px 10px 60px;
 }
 
 .no-account{
@@ -253,6 +263,44 @@ label{
 }
 .no-accn{
     color: #F5C842;
+}
+
+
+/* =================sign up  styling================ */
+.s-container{
+ text-align: center;
+}
+
+.nav-bars1{
+    display: flex;
+    gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#231E18;
+    height: 50px;
+    border-radius: 6px;
+    width: 50vw; 
+}
+
+.join{
+    font-size: x-large;
+    gap: 20px;
+    color: #46413b;
+    border-bottom-left-radius: 1em;
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+}
+
+.s-label{
+    text-align: h;
+}
+.s-input{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 20px;
 }
 
 
