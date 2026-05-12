@@ -60,22 +60,69 @@ prevBtn.addEventListener("click", function () {
     <button id="prevBtn">previous</button>
 </div>
 
-<script>
-let nextBtn = document.getElementById("nextBtn");
-let prevBtn = document.getElementById("prevBtn");
+<script type="module" src="spend-wise.js">
+// let nextBtn = document.getElementById("nextBtn");
+// let prevBtn = document.getElementById("prevBtn");
 
-let page1 = document.getElementById("page1");
-let page2 = document.getElementById("page2");
+// let page1 = document.getElementById("page1");
+// let page2 = document.getElementById("page2");
 
-nextBtn.addEventListener("click", function () {
-    page1.style.display = "none";
-    page2.style.display = "block";
-});
+// nextBtn.addEventListener("click", function () {
+//     page1.style.display = "none";
+//     page2.style.display = "block";
+// });
 
-prevBtn.addEventListener("click", function () {
-    page2.style.display = "none";
-    page1.style.display = "block";
-});
+// prevBtn.addEventListener("click", function () {
+//     page2.style.display = "none";
+//     page1.style.display = "block";
+// });
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- date -->
+       <div id="date">
+         <h2>Dates</h2>
+         <h2 id="dates"></h2>
+       </div>
+       <!-- Description -->
+        <div id="description">
+            <h2>Description</h2>
+            <div id="add-description"></div>
+        </div>
+        <!-- category -->
+         <div id="category">
+            <h2>Category</h2>
+            <div id="add-category"></div>
+         </div>
+
+        <!-- reason -->
+         <div id="reason-record">
+            <h2>Reason</h2>
+            <div id="add-reason"></div>
+         </div>
+          <!-- amount -->
+            <div id="amount">
+            <h2>Amount</h2>
+           <div class="amount">
+             <div id="total-amount">xsdf</div>
+             <button class="del"><img class="img" src="delete.png" alt=""></button>
+           </div>

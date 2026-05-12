@@ -29,7 +29,7 @@
             localStorage.setItem("user", JSON.stringify(user));
 
             alert("Account created successfully ✅");
-            window.location.href = "sign.html";
+            window.location.href = "database.html";
         }
 
     });

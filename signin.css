@@ -129,7 +129,7 @@ body{
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     padding: 10px 30px 10px 30px;
-    border: solid #1A1612 1px;
+    border: solid #868583 1px;
     margin-left: 20px;
 } 
 
@@ -237,11 +237,21 @@ label{
     width: 23em;
     margin-bottom: 20px;
 }
+.log-inp:hover,
+.log-inp1:hover,
+.log-inp2:hover{
+    background-color: transparent;
+    border: #E8A838 1px solid;
+}
 
 .frg-psw{
     margin-left: 12em;
     margin-top: 0px;
     margin-bottom: 15px;
+}
+
+.frg-psw:hover{
+    color: #E8A838;
 }
 
 .sign-in{
@@ -258,11 +268,17 @@ label{
 }
 
 .no-account{
-    margin-top: 20px;
+    margin-top: 18px;
     color: #4A3E30;
+    font-size: 20px;
 }
 .no-accn{
     color: #F5C842;
+}
+
+.no-accn:hover{
+    color:#46413b;
+    font-size: x-large;
 }
 
 

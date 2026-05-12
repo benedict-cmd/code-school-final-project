@@ -20,7 +20,7 @@
 
             alert("Login successful ✅");
 
-            window.location.href = "dashboard.html";
+            window.location.href = "database.html";
         }
 
         else {
