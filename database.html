@@ -7,6 +7,7 @@
       <link class="ben1" rel="icon" type="image/png" sizes="256x256" href="ben1.png">
     <!-- <link rel="stylesheet" href="database.css"> -->
      <link rel="stylesheet" href="Databases.css">
+     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="container"> 
@@ -16,6 +17,7 @@
             <a href=""><button class="btn2">Data<span>Base</span></button></a>
             <a href="add.html"><button class="btn3">Add cart</button></a>
             <a href=""><button class="btn4">User</button></a>
+            <button class="btn4" id="logout-btn" type="button" onclick="logoutUser()">Log out</button>
         </nav>
      </div>
      <div class="whole">
@@ -68,13 +70,42 @@
 
      <div class="src">
       <input class="searched" type="search" name="" id="search" placeholder="Search description or reason"><br>
-     <select name="" id="opt" class="selected">
-     </div>
+      <select name="" id="opt" class="selected">
         <option value="">Newest first</option>
         <option value="">Oldest first</option>
         <option value="">Highest amount</option>
         <option value="">Lowest amount</option>
-     </select>
+      </select>
+     </div>
+     <!-- =====inputs=========== -->
+      
+    <div class="inputs">
+   <div class="inputs">
+      
+<input class="search" type="date" id="input-date"><br>
+
+<input class="searched1" type="text" id="input-description" placeholder="Enter description"> <br>
+
+<select id="input-category"> 
+    <option value="">Select category</option>
+    <option value="Food">Food</option>
+    <option value="Transport">Transport</option>
+    <option value="Housing">Housing</option>
+    <option value="Health">Health</option>
+    <option value="Entertainment">Entertainment</option>
+    <option value="Utilities">Utilities</option>
+    <option value="Education">Education</option>
+    <option value="Other">Other</option>
+</select> <br>
+
+<input class="searched2" type="text" id="input-reason" placeholder="Enter reason"> <br>
+   </div>
+</div>
+ <div class="last">
+<input class="searched3" type="number" id="input-amount" placeholder="&#8358; Enter amount"><br>
+ <button class="searched-add" id="add-to">Add to expense</button> <br>
+   </div>
+
 
     <div id="dash">
        <div class="dash">
@@ -86,7 +117,7 @@
          </div>
          <div class="dash2">
             <!-- dare -->
-             <div id="date">
+             <div id="record-date">
          <h2 id="dates"></h2>
        </div>
          
@@ -116,7 +147,7 @@
       </div>
      </div>
 
-    <in class="inputs">
+    <!-- <div class="inputs">
    <div class="inputs">
       
 <input class="search" type="date" id="input-date"><br>
@@ -141,7 +172,7 @@
  <div class="last">
 <input class="searched3" type="number" id="input-amount" placeholder="&#8358; Enter amount"><br>
  <button class="searched-add" id="add-to">Add to expense</button> <br>
-   </div>
+   </div> -->
 <!-- whole -->
      </div>
 

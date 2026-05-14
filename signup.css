@@ -195,9 +195,52 @@ label{
     box-shadow:0 0 30px rgba(245,200,66,0.08);
 }
 
-.lab1{
-    margin-right: 12em;
+.nav-bars1{
+    display: flex;
+    gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#231E18;
+    height: 50px;
+    border-radius: 6px;
+    width: 50vw; 
 }
-.lab2{
+
+.join{
+    font-size: x-large;
+    gap: 20px;
+    color: #46413b;
+    border-bottom-left-radius: 1em;
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+}
+
+.lab{
+    text-align: start;
+}
+.s-input{
+    background-color: transparent;
+    border: solid 1px #231E18;
+    color: white;
+    padding: 10px;
+    width: 23em;
+    margin-bottom: 20px;
+}
+
+.lab1{
     margin-right: 15em;
 }
+.lab2{
+    margin-right: 11em;
+}
+.lab3{
+    margin-right: 15em;
+}
+.lab4{
+    margin-right: 10em;
+}
+
+
+
+
+

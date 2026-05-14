@@ -1,0 +1,181 @@
+body {
+  min-width: 0;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+select,
+textarea,
+button {
+  min-width: 0;
+}
+
+/* Common page containers */
+.container,
+.parent,
+.landing,
+.footer-container,
+.payment-options,
+.whole,
+.dash,
+.dash2 {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .nav-bar,
+  #nav,
+  .nav-bars,
+  .nav-bars1,
+  .payment-options,
+  .inputs,
+  .last,
+  #reason {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: center;
+  }
+
+  .nav-btn,
+  .nav-btn1,
+  .btn2,
+  .btn3,
+  .btn4,
+  .sign-in,
+  .connect-btn,
+  #add-to,
+  .per-info-btn,
+  .option-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .log-inp,
+  .log-inp1,
+  .log-inp2,
+  .s-input,
+  .search,
+  .searched,
+  .searched1,
+  .searched2,
+  .searched3,
+  #input-category,
+  .input-box input,
+  select {
+    width: 100%;
+  }
+
+  .personal-info {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  #ben {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  #container {
+    display: block;
+  }
+
+  .left-sidebar,
+  .footer-section,
+  .option-card,
+  .parent,
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .dash,
+  .dash2,
+  #dash {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container,
+  .parent,
+  .landing,
+  .footer-container,
+  .payment-options,
+  .whole {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .nav-bar,
+  #nav,
+  .nav-bars,
+  .nav-bars1,
+  .payment-options,
+  .inputs,
+  .last,
+  #reason {
+    gap: 0.75rem;
+  }
+
+  .frg-psw {
+    margin-left: 0;
+  }
+
+  .intro,
+  .intro-to,
+  .intro-expense,
+  .footer-section h2,
+  .option-card h3 {
+    line-height: 1.35;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    font-size: 13px;
+  }
+
+  .footer-section p,
+  .footer-section li,
+  .two,
+  .onep,
+  .descrip-p,
+  .last,
+  .no-account {
+    font-size: 0.95rem;
+  }
+
+  .nav-bar,
+  #nav,
+  .payment-options,
+  .inputs,
+  .last,
+  #reason {
+    justify-content: center;
+  }
+}

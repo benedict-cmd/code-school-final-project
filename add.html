@@ -1,39 +1,125 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Bank Account</title>
+ <link class="ben1" rel="icon" type="image/png" sizes="256x256" href="ben1.png">
     <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <div class="inputs">
 
-<input type="date" id="input-date">
+<div class="container">
 
-<input type="text" id="input-description" placeholder="Enter description">
+    <h1 class="title">Add Bank Account</h1>
 
-<select id="input-category">
-    <option value="">Select category</option>
-    <option value="Food">Food</option>
-    <option value="Transport">Transport</option>
-    <option value="Housing">Housing</option>
-    <option value="Health">Health</option>
-    <option value="Entertainment">Entertainment</option>
-    <option value="Utilities">Utilities</option>
-    <option value="Education">Education</option>
-    <option value="Other">Other</option>
-</select>
+    <p class="sub-title">
+        Connect your preferred payment account securely
+    </p>
 
-<input type="text" id="input-reason" placeholder="Enter reason">
+    <!-- OPTIONS -->
 
-<input type="number" id="input-amount" placeholder="Enter amount">
+    <h2 class="option-title">Select Payment Provider</h2>
+
+    <div class="payment-options">
+
+        <!-- OPAY -->
+
+        <label class="option-card">
+
+            <input type="radio" name="bank">
+
+            <h3 class="opay">OPay</h3>
+
+            <p>
+                Connect your OPay wallet account
+            </p>
+
+        </label>
+
+        <!-- MONIEPOINT -->
+
+        <label class="option-card">
+
+            <input type="radio" name="bank">
+
+            <h3 class="moniepoint">Moniepoint</h3>
+
+            <p>
+                Link your Moniepoint business account
+            </p>
+
+        </label>
+
+        <!-- PAYSTACK -->
+
+        <label class="option-card">
+
+            <input type="radio" name="bank">
+
+            <h3 class="paystack">Paystack</h3>
+
+            <p>
+                Connect with Paystack payment gateway
+            </p>
+
+        </label>
+
+        <!-- PAYPAL -->
+
+        <label class="option-card">
+
+            <input type="radio" name="bank">
+
+            <h3 class="paypal">PayPal</h3>
+
+            <p>
+                Link your international PayPal account
+            </p>
+
+        </label>
+
+    </div>
+
+    <!-- FORM -->
+
+    <div class="input-box">
+        <label>Account Email / Number</label>
+
+        <input 
+        type="text" 
+        placeholder="Enter email or account number">
+    </div>
+
+    <div class="input-box">
+        <label>Account Holder Name</label>
+
+        <input 
+        type="text" 
+        placeholder="Enter full name">
+    </div>
+
+    <div class="input-box">
+        <label>Password / API Key</label>
+
+        <input 
+        type="password" 
+        placeholder="Enter secure key">
+    </div>
+
+    <!-- BUTTON -->
+
+    <button class="connect-btn">
+        Connect Account
+    </button>
 
 </div>
-<button class="btn3">Add</button>
-    
 
-
+</body>
+</html>
 
 
 
