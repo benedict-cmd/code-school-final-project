@@ -557,7 +557,8 @@ select{
 /* hover */
 
 .search:hover{
-  border:#9b8649 solid 1px;  
+    border:rgba(245,200,66,0.08) 4px solid ;
+    border-radius: 10px;
 }
 button:hover{
     background-color: #221e1b;
@@ -590,7 +591,8 @@ button:hover{
 .searched3:hover,
   #input-category:hover{
      background-color: transparent;
-    border: solid 1px  #F5C842 ;
+    border:rgba(245,200,66,0.08) 4px solid ;
+    border-radius: 10px;
 }
 
 #add-to{
@@ -610,7 +612,8 @@ button:hover{
 
 .selected:hover{
      background-color: transparent;
-    border: solid 1px  #F5C842 ;
+   border:rgba(245,200,66,0.08) 4px solid ;
+    border-radius: 10px;
 }
 
 select:hover{

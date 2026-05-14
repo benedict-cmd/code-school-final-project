@@ -240,6 +240,19 @@ label{
     margin-right: 10em;
 }
 
+.no-account{
+    margin-top: 18px;
+    color: #4A3E30;
+    font-size: 20px;
+}
+.no-accn{
+    color: #F5C842;
+}
+
+.no-accn:hover{
+    color:#46413b;
+    font-size: x-large;
+}
 
 
 
