@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
       <link class="ben1" rel="icon" type="image/png" sizes="256x256" href="ben1.png">
-    <!-- <link rel="stylesheet" href="database.css"> -->
      <link rel="stylesheet" href="Databases.css">
      <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <div class="container"> 
-         <p class="intro"><b class="intro-btn">💰</b>Spend<span class="intro-spn">Wise</span></p>
-        <nav class="nav-bar">
-            <!-- <a href="#"><button class="btn1">Dasboard</button></a> -->
-            <a href=""><button class="btn2">Data<span>Base</span></button></a>
-            <a href="add.html"><button class="btn3">Add cart</button></a>
-            <a href=""><button class="btn4">User</button></a>
-            <button class="btn4" id="logout-btn" type="button" onclick="logoutUser()">Log out</button>
-        </nav>
-     </div>
+    <div class="header-wrapper">
+        <div class="notification-bar">
+            <div class="notification-content">
+                <span class="notification-icon">🔔</span>
+                <p class="notification-text">Welcome back! Track your expenses and stay on budget.</p>
+            </div>
+        </div>
+        <div class="container"> 
+            <div class="header-left">
+                <p class="intro"><b class="intro-btn">💰</b>Spend<span class="intro-spn">Wise</span></p>
+            </div>
+            <nav class="nav-bar">
+                <a href="database.html"><button class="btn2"><span class="icon">📊</span> Dashboard</button></a>
+                <a href="add.html"><button class="btn3"><span class="icon">➕</span> Add Cart</button></a>
+                <a href=""><button class="btn4"><span class="icon">👤</span> Profile</button></a>
+                <button class="btn4" id="logout-btn" type="button" onclick="logoutUser()"><span class="icon">🚪</span> Log out</button>
+            </nav>
+            <div class="header-right">
+                <button class="notification-btn" id="notif-btn">🔔 <span class="notif-badge" id="notif-count">0</span></button>
+            </div>
+         </div>
+    </div>
      <div class="whole">
      
      <div class="exp">
@@ -176,6 +187,6 @@
 <!-- whole -->
      </div>
 
-     <script src="database.js"></script>
+     <!-- <script src="database.js"></script> -->
 </body>
 </html>
