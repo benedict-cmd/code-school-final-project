@@ -184,7 +184,7 @@ async function addEntry() {
         entries.push(newEntry);
         saveEntriesToLocal();
         displayEntries();
-        alert('Expense saved locally. It will remain available in the dashboard.');
+        alert('Expense added successfully!.');
     }
 }
 
@@ -231,7 +231,7 @@ document.getElementById('opt-other').addEventListener('click', () => { currentFi
 
 ensureAuthenticated();
 fetchEntries().then(displayEntries);
-
+        //   dateeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesssssssssss
 const now = new Date();
 const currentDate = now.toLocaleDateString(undefined, {
     weekday: 'long',

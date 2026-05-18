@@ -26,7 +26,7 @@
   .dash,
   .dash2 {
     max-width: 100%;
-    padding: 1rem !important;
+    padding: 1rem;
   }
 
   .header-wrapper,
@@ -34,8 +34,8 @@
   .notification-content,
   .container {
     width: 100%;
-    padding-left: 0.75rem !important;
-    padding-right: 0.75rem !important;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem ;
   }
 
   .notification-content {
@@ -122,8 +122,8 @@
   .footer-section,
   .option-card,
   .parent {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 1rem ;
+    padding-right: 1rem;
   }
 
   .footer-container {
@@ -158,8 +158,7 @@
   }
 }
 
-/* Extra small phones - below 480px */
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 13px;
   }
@@ -183,5 +182,6 @@
   .no-account {
     font-size: 0.95rem;
   }
-}
+} 
+
 

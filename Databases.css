@@ -145,7 +145,7 @@ a{
 }
 
 /* Notification Button */
-.notification-btn {
+.notification-btn, .setting {
     position: relative;
     background: linear-gradient(
         to right,
