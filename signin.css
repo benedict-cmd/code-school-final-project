@@ -5,6 +5,11 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    animation: pulseee 2s infinite;
+}
+@keyframes pulseee {
+    0%, 100% { opacity: 1; }
+    80% { opacity: 0.7; }
 }
 
 .nav-bars{
@@ -74,6 +79,7 @@ body{
     height: 56px;
      margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 .p-in-spn{
     color: #F5C842;
@@ -87,6 +93,7 @@ body{
     align-self: center;
     margin-right: 20px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .per-info-btn:hover{
@@ -104,23 +111,24 @@ label{
     color: #b9aea0;
 }
 
-.log-inp{
+/* .log-inp{
     background-color: transparent;
     border: solid 1px #231E18;
     color: white;
     padding: 10px;
     width: 23em;
     margin-bottom: 20px;
-} 
+}  */
 
-.log-inp1{
+/* .log-inp1{
     background-color: transparent;
     border: solid 1px #231E18;
     color: white;
     padding: 10px;
     width: 23em;
     margin-bottom: 20px;
-} 
+    border-radius: 9px;
+}  */
 
 .log-inp{
     background-color: transparent;
@@ -128,7 +136,9 @@ label{
     color: white;
     padding: 10px;
     width: 23em;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    cursor: pointer;
 } 
 
 .log-inp2{
@@ -138,6 +148,8 @@ label{
     padding: 10px;
     width: 23em;
     margin-bottom: 20px;
+    border-radius: 9px;
+    cursor: pointer;
 }
 .log-inp:hover,
 .log-inp1:hover,
@@ -160,6 +172,8 @@ label{
     margin-top: 15px;
     padding: 10px 150px 10px 130px;
     background-color: #FBB04C;
+    border-radius: 9px;
+    cursor: pointer;
     /* box-shadow: #F5C842 10px -10px 20px; */
 }
 
