@@ -155,7 +155,7 @@ label{
 .log-inp1:hover,
 .log-inp2:hover{
     background-color: transparent;
-    border: #E8A838 1px solid;
+    border:rgba(245,200,66,0.08) 4px solid ;
 }
 
 .frg-psw{
